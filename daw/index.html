@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager/to do list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <em>
+            <h1>Task Manager / To-do list </h1>
+        </em>
+        
+    </header>
+    <div class="container">
+        <div class="task-form">
+           
+            <input type="text" id="taskInput" placeholder="Add your texte ...">
+            <button onclick="addTask()">Add </button>
+        </div>
+        <div class="task-list" id="taskList">
+            <!-- Task items will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
