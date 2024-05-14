@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: hsl(193, 100%, 52%);
+    background-color: hsl(240, 95%, 23%);
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -15,8 +15,8 @@ header {
 .container {
     width: 100%;
     min height: 100vh;
-    background: hsl(193, 100%, 52%);
-    
+    background: hsl(240, 95%, 23%);
+    padding: 10px;
 }
 
 .task-form input[type="text"] {
